@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: expressions
+- text: built-ins
+- text: variables
+- text: control flow
+- text: classes
+- text: conditions
+- text: functions
+- text: literals
+- text: exceptions
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15489#comment
+status: Solved
+record: -1
